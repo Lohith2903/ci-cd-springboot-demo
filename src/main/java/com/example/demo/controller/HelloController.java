@@ -10,4 +10,10 @@ public class HelloController {
  public String hello() {
   return "CI/CD Pipeline Working!";
  }
+ 
+ 
+ @GetMapping("/test")
+ public String test() {
+  return "CI/CD Pipeline testing!";
+ }
 }
