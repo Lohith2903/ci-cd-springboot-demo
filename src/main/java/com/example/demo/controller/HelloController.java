@@ -17,7 +17,7 @@ public class HelloController {
   return "CI/CD Pipeline testing!";
  }
  
- @GetMapping("/test")
+ @GetMapping("/webhook")
  public String webhook() {
   return "webhook triger working";
  }
