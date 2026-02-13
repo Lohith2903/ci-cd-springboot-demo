@@ -21,4 +21,9 @@ public class HelloController {
  public String webhook() {
   return "webhook triger working";
  }
+ 
+ @GetMapping("/check")
+ public String check() {
+	 return "check";
+ }
 }
